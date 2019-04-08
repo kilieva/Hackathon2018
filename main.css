@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+
+
+body {
+    margin: 0;
+    position: relative;    
+   font-family: 'Share Tech', sans-serif;     
+}
+
+nav {
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.5em;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  padding: 12px 18px;  
+  display: flex;
+  list-style-type: none; 
+  font-family: 'Share Tech', sans-serif;    
+}
+
+header.wall1 {
+    background-image: url(Images/redmoon.jpg);    
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover; 
+    top: -15px;
+    position: relative;
+}
+
+ .kk {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 80px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .kk1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 70px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    color: #EA1646;
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .k1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 50px;
+    margin-top: 15px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 28px;    
+    font-family: 'Share Tech', sans-serif;  
+}
+
+ .k {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 80px;
+    margin-top: 50px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 21px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.kk:hover, .kk.active, .kk:focus {
+    color: #EA1646;
+}
+
+h3.hh1 {
+    font-size: 22px;
+}
+
+button.btn1 {
+    font-family: 'Share Tech', sans-serif;    
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: #EA1646; 
+    border: 1px solid #EA1646;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+button.btn1:hover {
+    cursor: pointer;
+    border: 1px solid #EA1646;
+    background-color: #EA1646;
+    color: #fff;
+}
+
+div.a1 {
+    margin-top: 80px;
+    text-align: center;    
+}
+
+div.a3 {
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+h2.hh2 {
+    font-size: 30px;
+}
+
+div.font1 {   
+    width: 300px;    
+    font-size: 20px;
+}
+
+.fa {
+    font-size: 80px;
+}
+
+div.font3, div.font2, div.font4 {
+    text-align: center;    
+    width: 300px;    
+    font-size: 20px;
+}
+
+div.all {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    display: flex;
+    margin-top: 80px;
+}
+
+button.btn2 {
+    font-family: 'Share Tech', sans-serif;    
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: #EA1646;
+    border: 1px solid #EA1646;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+button.btn2:hover {
+    cursor: pointer;
+    border: 1px solid #EA1646;
+    background-color: #EA1646;
+    color: #fff;
+}
+
+button.btn3 {
+    font-family: 'Share Tech', sans-serif;    
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: #EA1646;  
+    border: 1px solid #EA1646;
+    background-color: #fff;
+    font-size: 18px;
+    margin-bottom: 110px;
+}
+
+button.btn3:hover {
+    cursor: pointer;
+    border: 1px solid #EA1646;
+    background-color: #EA1646;
+    color: #fff;
+}
+
+h3.hh3 {
+    font-size: 26px;
+}
+
+div.a4 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer.foot {    
+    height: 180px;
+    background-color: beige;
+    display: flex;
+}
+
+img.log {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 80px;   
+}
+
+div.down {
+    display: flex;
+}
+
+div.down h3 {
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+span#moto {
+    color: #EA1646;
+    font-size: 12px;
+}
+
+div.links {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+div.links a {
+    text-decoration: none;
+    color: #000;
+}
+
+div.links a:hover {
+    color: #EA1646;
+}
+
+div.link2 {
+    margin-left: 50px;
+}
+
+span.tag {
+    font-size: 20px;
+    color: #EA1646;
+    font-weight: bold;
+}
+
+/*
+div.soc a {
+    font-size: 1px;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+}
+*/
+
+p#copy {
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+
+
+
+
+

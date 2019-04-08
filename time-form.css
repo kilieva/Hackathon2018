@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+
+body {
+    margin: 0;
+    position: relative;    
+    font-family: 'Share Tech', sans-serif;   
+    overflow: hidden;    
+}
+
+nav {
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.5em;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  padding: 12px 18px;  
+  display: flex;
+  list-style-type: none; 
+  font-family: 'Share Tech', sans-serif;    
+}
+
+header.wall1 {
+    background-image: url(Images/oo.jpg);    
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover; 
+    top: -15px;
+    position: relative;    
+}
+
+ .kk {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 80px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .kk1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 70px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    color: #EA1646;
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .k1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 50px;
+    margin-top: 15px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 28px;    
+    font-family: 'Share Tech', sans-serif;  
+}
+
+ .k {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 80px;
+    margin-top: 50px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 21px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.kk:hover, .kk.active, .kk:focus {
+    color: #EA1646;
+}
+
+div.one {
+    z-index: 1;
+    position: relative;
+    top: -550px;
+    font-family: 'Share Tech', sans-serif;    
+    font-size: 20px;
+    margin-left: 150px;    
+}
+
+h3.a1 {
+   color: #fff; 
+}
+
+input {
+    font-family: 'Share Tech', sans-serif;   
+    font-size: 20px;
+    position: relative;
+    left: -30px;
+    margin-top: 20px;
+}
+
+div.two {
+    z-index: 1;
+    position: relative;
+    top: -680px;
+    font-family: 'Share Tech', sans-serif;    
+    font-size: 20px;
+    margin-left: 1200px;    
+}
+
+h3.a1 {
+   color: #fff; 
+}
+
+input {
+    font-family: 'Share Tech', sans-serif;   
+    font-size: 20px;
+    position: relative;
+    left: -30px;
+    margin-top: 20px;
+}
+
+button.btn1 {
+   font-family: 'Share Tech', sans-serif;    
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: #EA1646; 
+    border: 1px solid #EA1646;   
+    background-color: transparent;
+    font-size: 20px;   
+    position: relative;
+    margin-left: 1180px;
+    top: -600px;    
+}
+
+button.btn1:hover {
+    cursor: pointer;
+    border: 1px solid #EA1646;
+    background-color: #EA1646;
+    color: #fff;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+
+body {
+    margin: 0;
+    position: relative;    
+    font-family: 'Share Tech', sans-serif;   
+    overflow: hidden;
+}
+
+nav {
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.5em;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  padding: 12px 18px;  
+  display: flex;
+  list-style-type: none; 
+  font-family: 'Share Tech', sans-serif;    
+  
+}
+
+header.wall1 {
+    background-image: url(Images/zz.jpg);    
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover; 
+    top: -15px;
+    position: relative;
+}
+
+ .kk {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 80px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .k1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 50px;
+    margin-top: 15px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 28px;    
+    font-family: 'Share Tech', sans-serif;  
+}
+
+ .k {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 80px;
+    margin-top: 50px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 21px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.kk:hover, .kk.active, .kk:focus {
+    color: #EA1646;
+}
+
+div.time {
+    width: 800px;
+    height: 300px;   
+    position: relative;
+    top: -1000px;
+    border: 1px solid #EA1646;
+    margin: auto;
+}
+
+div.welcome { 
+    position: relative;
+    top: -1310px;
+    text-align: center;    
+}
+
+p.person {
+    color: #fff;
+    font-size: 26px;
+}
+
+span.pp {
+    color: #EA1646;
+}
+
+button.btn1 {
+    font-family: 'Share Tech', sans-serif;    
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: #EA1646; 
+    border: 1px solid #EA1646;   
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 380px;   
+    position: relative;
+    top: -1250px;
+}
+
+button.btn2 {
+   font-family: 'Share Tech', sans-serif;    
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: #EA1646; 
+    border: 1px solid #EA1646;   
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 260px;   
+    position: relative;
+    top: -1250px;
+}
+
+button.btn1:hover,button.btn2:hover {
+    cursor: pointer;
+    border: 1px solid #EA1646;
+    background-color: #EA1646;
+    color: #fff;
+}
+
+.display {
+  height: 800px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display .time-left .time {
+  display: inline-block;
+  font-size: 34px;
+  letter-spacing: 1.5px;
+  text-align: center;  
+  font-weight: 100;
+  color: #EA1646;
+  background: transparent;
+  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.15);
+  margin-right: 30px;
+  margin-bottom: 40px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 3px solid #f9f9f9;
+  border-radius: 3px;
+  box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.25);
+}
+.display .time-left .day, .display .time-left .hour, .display .time-left .minute, .display .time-left .second {
+  position: relative;
+}
+.display .time-left .day:after, .display .time-left .hour:after, .display .time-left .minute:after, .display .time-left .second:after {
+  position: absolute;
+  font-size: 16px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+  left: -4%;
+  top: -25%;
+  text-transform: uppercase;
+}
+.display .time-left .day {
+  z-index: 5;
+}
+.display .time-left .day:after {
+  content: "days";
+}
+.display .time-left .hour {
+  z-index: 4;
+}
+.display .time-left .hour:after {
+  content: "hours";
+}
+.display .time-left .minute {
+  z-index: 3;
+}
+.display .time-left .minute:after {
+  content: "minutes";
+}
+.display .time-left .second {
+  z-index: 2;
+  position: relative;
+}
+.display .time-left .second:after {
+  content: "seconds";
+}
+.display .end-time {
+  font-size: 22px;
+  color: #EA1646;
+}
+
+@media only screen and (max-width: 500px) {
+  .display .time-left .time {
+    display: block;
+  }
+}
+

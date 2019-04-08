@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+
+
+body {
+    margin: 0;
+    position: relative;    
+   font-family: 'Share Tech', sans-serif;     
+}
+
+nav {
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.5em;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  padding: 12px 18px;  
+  display: flex;
+  list-style-type: none; 
+  font-family: 'Share Tech', sans-serif;    
+}
+
+header.wall1 {
+    background-image: url(Images/vv.jpg);    
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover; 
+    top: -15px;
+    position: relative;
+}
+
+ .kk {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 80px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .kk1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 70px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    color: #EA1646;
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .k1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 50px;
+    margin-top: 15px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 28px;    
+    font-family: 'Share Tech', sans-serif;  
+}
+
+ .k {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 80px;
+    margin-top: 50px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 21px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.kk:hover, .kk.active, .kk:focus {
+    color: #EA1646;
+}
+
+p.one {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3.three {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul.two {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    font-size: 20px;;
+    margin-top: 50px;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+ul.two1 {
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+ul.two2 {
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+ul.two3 {
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+ul.as {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+ul.four1 {
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 50px;
+    list-style-type: none;
+    margin-bottom: 80px;
+}
+
+.fa {
+    padding-right: 20px;
+    color: #EA1646;
+}
+
+span.tot {
+    color: #EA1646;
+    font-weight: bold;
+}
+
+footer.foot {    
+    height: 180px;
+    background-color: beige;
+    display: flex;
+}
+
+img.log {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 80px;   
+}
+
+div.down {
+    display: flex;
+}
+
+div.down h3 {
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+span#moto {
+    color: #EA1646;
+    font-size: 12px;
+}
+
+div.links {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+div.links a {
+    text-decoration: none;
+    color: #000;
+}
+
+div.links a:hover {
+    color: #EA1646;
+}
+
+div.link2 {
+    margin-left: 50px;
+}
+
+span.tag {
+    font-size: 20px;
+    color: #EA1646;
+    font-weight: bold;
+}
+
+p#copy {
+    margin-left: 350px;
+    margin-top: 80px;
+}
+

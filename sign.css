@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+
+
+body {
+    margin: 0;
+    position: relative;    
+    font-family: 'Share Tech', sans-serif;    
+    overflow: hidden;
+}
+
+nav {
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.5em;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  padding: 12px 18px;  
+  display: flex;
+  list-style-type: none; 
+  font-family: 'Share Tech', sans-serif;    
+}
+
+header.wall1 {
+    background-image: url(Images/uu.jpg);    
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover; 
+    top: -15px;
+    position: relative;
+}
+
+ .kk {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 80px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .kk1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 600px;
+    margin-top: 15px;
+    padding-bottom: 20px;    
+    padding-right: 70px;    
+    font-weight: 600;
+    letter-spacing: .085em;
+    font-size: 20px;    
+    color: #EA1646;
+    font-family: 'Share Tech', sans-serif;    
+}
+
+ .k1 {    
+    cursor: pointer;     
+    position: relative;    
+    top: 10px;
+    left: 50px;
+    margin-top: 15px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 28px;    
+    font-family: 'Share Tech', sans-serif;  
+}
+
+ .k {    
+    cursor: pointer;     
+    position: relative;    
+    top: 80px;
+    left: 80px;
+    margin-top: 50px;   
+    font-weight: 600;
+    letter-spacing: 0.085em;
+    font-size: 21px;    
+    font-family: 'Share Tech', sans-serif;    
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.kk:hover, .kk.active, .kk:focus {
+    color: #EA1646;
+}
+
+
+input {    
+    margin-top: 30px;
+    font-family: 'Share Tech', sans-serif;
+    outline: none;
+    border:none; 
+    border-bottom: 1.5px solid #fff;
+    color:#CE7454;    
+    background-color: #ECE49B;
+    width: 280px;
+}
+
+input[type="text"] {
+    font-size:20px;
+}
+
+input[type="email"] {
+    font-size:20px;
+}
+
+input[type="password"] {
+    font-size:20px;
+}
+
+div.login {   
+    background-color: #ECE49B;
+    border-radius: 40px;
+    width: 500px;
+    height: 530px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;   
+    z-index: 1;
+    position: relative;
+    top: -750px;
+    opacity: 0.6;    
+}
+
+input.pass {
+    margin-top: 40px;
+}
+
+button.btn1 {
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: #ECE49B;
+    border: 1px solid #ECE49B;
+    background-color: #000;
+    font-size: 20px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;   
+}
+
+img.logo1 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;       
+}
+
+button.btn1:hover {
+    cursor: pointer;
+    background-color: #EA1646;
+    border:#EA1646;
+    color: #fff;
+}
